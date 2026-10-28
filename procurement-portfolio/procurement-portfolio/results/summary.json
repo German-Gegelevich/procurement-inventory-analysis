@@ -1,0 +1,16 @@
+{
+  "sku_count": 240,
+  "sold_units": 40906,
+  "available_units": 39268,
+  "incoming_units": 2729,
+  "sku_to_order": 136,
+  "order_units": 19791,
+  "order_budget": 11099288,
+  "status_counts": {
+    "Избыток": 46,
+    "Нет продаж": 12,
+    "Норма": 53,
+    "Риск дефицита": 129
+  },
+  "validation": "passed"
+}
