@@ -42,3 +42,13 @@ python scripts/run_analysis.py
 Нужен Python 3.10+; сервер базы данных и дополнительные пакеты для SQL-анализа не требуются. Для обновления графика нужен matplotlib; инструкция находится в описании проекта.
 
 Проект подготовлен с помощью ChatGPT. Синтетические данные позволяют показать подход к аналитике без раскрытия коммерческой информации.
+
+
+## Дополнительный кейс: анализ данных Wildberries и Ozon
+
+Для демонстрации практической обработки большой операционной книги подготовлен отдельный сценарий расчёта покрытия запасом и приоритетов поставки. В публичной части используются только синтетические данные; исходная книга не публикуется.
+
+- [Описание кейса и запуск](marketplace-replenishment-case-study/README.md)
+- [Методика расчётов](marketplace-replenishment-case-study/docs/methodology.md)
+- [Скрипт обработки Excel/CSV](marketplace-replenishment-case-study/src/replenishment_analysis.py)
+- [Синтетический CSV-пример](marketplace-replenishment-case-study/data/sample/anonymized_sample.csv)
